@@ -1,0 +1,30 @@
+{
+    "RabbitMq":{
+        "Login":"device",
+        "Password":"ephor2021",
+        "Address":"188.225.18.140",
+        "Port":"5672"
+    },
+    "Db":{
+        "Login":"postgres",
+        "Password":"123",
+        "Addresss":"127.0.0.1",
+        "DatabaseName":"postgres",
+        "Port":5432,
+        "PgConnectionPool": 20
+    },
+    "Services":{
+        "EphorPay":{
+            "NameQueue": "ephor.1.pay.test",
+            "Bank":{
+                "Address":"127.0.0.1",
+                "Port":"8030",
+                "ExecuteMinutes":3,
+                "PollingTime": 1500 
+            }
+        }
+    },
+    "ExecuteMinutes": 10,
+    "LogFile": "Log.txt",
+    "Debug": true
+}

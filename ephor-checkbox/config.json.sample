@@ -1,0 +1,8 @@
+{   
+    "Port": "9010",
+    "Address": "127.0.0.1",
+    "Recipient": "http://127.0.0.1:8001/api/2.0/Fiscal.php?action=Finish",
+    "Debug": false,
+    "SleepMilliSec": 1500,
+    "ExecuteMinutes": 5
+}

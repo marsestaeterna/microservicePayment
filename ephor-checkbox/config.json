@@ -1,0 +1,11 @@
+{      
+    "Name": "checkbox.in.ua",
+    "Port": "9030",
+    "Address": "127.0.0.1",
+    "Recipient": "http://local.ephor.online/api/2.0/Fiscal.php?action=Finish",
+    "Debug": true,
+    "SleepMilliSec": 1500,
+    "ExecuteMinutes": 10,
+    "LogFile": "Log.txt"
+    
+}

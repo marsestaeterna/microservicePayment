@@ -1,0 +1,11 @@
+{      
+    "Name": "Ferma.ofd.ru",
+    "Port": "9010",
+    "Address": "127.0.0.1",
+    "Recipient": "https://dev5.ephor.online/api/2.0/Fiscal.php?action=Finish",
+    "Debug": true,
+    "SleepMilliSec": 1500,
+    "ExecuteMinutes": 10,
+    "LogFile": ""
+    
+}

@@ -1,0 +1,61 @@
+2021/12/16 10:07:35 Load Config...
+2021/12/16 10:07:35 Start service
+2021/12/16 10:07:35 Start Logger
+2021/12/16 10:07:35 Start Bank..
+2021/12/16 10:07:35 127.0.0.1:8030
+2021/12/16 11:42:03 Load Config...
+2021/12/16 11:42:03 Start service
+2021/12/16 11:42:03 Start Logger
+2021/12/16 11:42:03 Start Bank..
+2021/12/16 11:42:03 127.0.0.1:8030
+2021/12/16 12:17:33 &{%!s(*io.LimitedReader=&{0xc0000e0780 1513}) <nil> %!s(*bufio.Reader=<nil>) %!s(bool=false) %!s(bool=true) {%!s(int32=0) %!s(uint32=0)} %!s(bool=false) %!s(bool=false) %!s(bool=false) %!s(func()=0xd78ce0)}
+2021/12/16 12:17:33 {Config:{BankType:1 PayType:1 CurrensyCode:643 Language:RU Description:Точка} IdTransaction:0 MerchantId:T6949109620 GateWay:sberbank PaymentToken:eyJzaWduYXR1cmUiOiJNRVlDSVFDZnVJcy9pZXJBN0VudHF2WmJ6dTFRdWtTOEVET29yc3o4ZFVxMUF6ek9YQUloQU5zUlVqaTBHSDJ3QU44dlMxdkxnYWxqcUlVRGgybFZEako5OEF4Yk15Sk0iLCJwcm90b2NvbFZlcnNpb24iOiJFQ3YxIiwic2lnbmVkTWVzc2FnZSI6IntcImVuY3J5cHRlZE1lc3NhZ2VcIjpcIlFmVGs0ckxKWThjRzN0SWc0K1hkSy9pM05OMm1ScE9ZR0U4Zm5STGp0ME1VR2toc1h1Q1VYa0JZQzJvMktyOWExQU1FcXdvKzlHY1dldVhZdGtsQ3B0SzhQVlVMQmR6WUdKWkhnREhLeFFQRlQ2aXEwSytkdDNNVUZ2NzZGWFYwaXlBN0xETXJSS0gxWlJGV2hockkvSlFyeXdqZ0ErYUtPazVTbU5HRng1OGRXUGJHbGhHSUpoOWVlaE0rRE44T1Uzb0sxZ0NwbFJsdXhiR09RUURYTVgxOGpLUmYwMDJTNHk1Sm5zbytRWXpTYVpmWEZRMldsVUYrQWNsNmhsYVV4TTdJdWRncWZ6WWw1YlRjd1hhaFBwSHNnaVVjMU9oZHpzWExvTDB2ekxQRklRZUlxeTl5OFAya2luWG1tQzdnV3paaTMwVnZwMytuQ1p0QnRET1ZsQk1tSHcrOEJybW9yZzV3VmlKdmI3RHlJT1lLdXNTQkZlOWprbm53cFFyK3A4N2QyVytuZkdjd2wzL1pwaGpIYXRXNSs4VUh6M0E4Q2lHS0ZnRTIwcGIwamFvcDF2SWVUcXYwcjVQV3BsekJORENPN3ovMU1WM0luZjRQZmw0WnNDQ3BSWnJlOFdqMlMyZlcvdVFBNGNyRUhnTkNLTHJsclp2MkNudk5UZGRNWlpZV1FaRkxzbFZyZ2orZjRxRkl5b3hTdUlVWmVnbjRLSDN5SkQ0YzZJT3owbEZORnYzd1VLRkRZSGZrYkVjL1EwWldkbWFqWGFWNnl3XFx1MDAzZFxcdTAwM2RcIixcImVwaGVtZXJhbFB1YmxpY0tleVwiOlwiQkVCL0xaM2Vqb3dvUDNSWDRWbm43bExQVHEyVXdHVCswVzlzeXhvU0VITkJra3d0ZmJJZ081L1N2c2NEU2YxZGxQRE1mNFRhZ2l1bmUzNHlSQVlFMlk4XFx1MDAzZFwiLFwidGFnXCI6XCJLVnBzS1hEb0w0VVBnU0pjUXlSSlNDK1B2ZUZ1d2NkWWdwa2JsNy9Lbm9NXFx1MDAzZFwifSJ9 Sum:4500}
+2021/12/16 12:17:34  [data]  SET "ps_desc"='Заказ с таким номером уже обработан',"error"='Заказ с таким номером уже обработан',,"status"=120
+2021/12/16 12:17:34  [where]  WHERE "id"=0
+2021/12/16 12:17:34  [x] UPDATE main.transaction SET "ps_desc"='Заказ с таким номером уже обработан',"error"='Заказ с таким номером уже обработан',,"status"=120 WHERE "id"=0
+2021/12/16 12:17:34 110
+2021/12/16 12:17:34 %!s(int=110)
+2021/12/16 12:33:52 Load Config...
+2021/12/16 12:33:52 Start service
+2021/12/16 12:33:52 Start Logger
+2021/12/16 12:33:53 Start Bank..
+2021/12/16 12:33:53 127.0.0.1:8030
+2021/12/16 12:33:59 {Config:{BankType:1 PayType:1 CurrensyCode:643 Language:RU Description:Точка} IdTransaction:0 MerchantId:T6949109620 GateWay:sberbank PaymentToken:eyJzaWduYXR1cmUiOiJNRVlDSVFDZnVJcy9pZXJBN0VudHF2WmJ6dTFRdWtTOEVET29yc3o4ZFVxMUF6ek9YQUloQU5zUlVqaTBHSDJ3QU44dlMxdkxnYWxqcUlVRGgybFZEako5OEF4Yk15Sk0iLCJwcm90b2NvbFZlcnNpb24iOiJFQ3YxIiwic2lnbmVkTWVzc2FnZSI6IntcImVuY3J5cHRlZE1lc3NhZ2VcIjpcIlFmVGs0ckxKWThjRzN0SWc0K1hkSy9pM05OMm1ScE9ZR0U4Zm5STGp0ME1VR2toc1h1Q1VYa0JZQzJvMktyOWExQU1FcXdvKzlHY1dldVhZdGtsQ3B0SzhQVlVMQmR6WUdKWkhnREhLeFFQRlQ2aXEwSytkdDNNVUZ2NzZGWFYwaXlBN0xETXJSS0gxWlJGV2hockkvSlFyeXdqZ0ErYUtPazVTbU5HRng1OGRXUGJHbGhHSUpoOWVlaE0rRE44T1Uzb0sxZ0NwbFJsdXhiR09RUURYTVgxOGpLUmYwMDJTNHk1Sm5zbytRWXpTYVpmWEZRMldsVUYrQWNsNmhsYVV4TTdJdWRncWZ6WWw1YlRjd1hhaFBwSHNnaVVjMU9oZHpzWExvTDB2ekxQRklRZUlxeTl5OFAya2luWG1tQzdnV3paaTMwVnZwMytuQ1p0QnRET1ZsQk1tSHcrOEJybW9yZzV3VmlKdmI3RHlJT1lLdXNTQkZlOWprbm53cFFyK3A4N2QyVytuZkdjd2wzL1pwaGpIYXRXNSs4VUh6M0E4Q2lHS0ZnRTIwcGIwamFvcDF2SWVUcXYwcjVQV3BsekJORENPN3ovMU1WM0luZjRQZmw0WnNDQ3BSWnJlOFdqMlMyZlcvdVFBNGNyRUhnTkNLTHJsclp2MkNudk5UZGRNWlpZV1FaRkxzbFZyZ2orZjRxRkl5b3hTdUlVWmVnbjRLSDN5SkQ0YzZJT3owbEZORnYzd1VLRkRZSGZrYkVjL1EwWldkbWFqWGFWNnl3XFx1MDAzZFxcdTAwM2RcIixcImVwaGVtZXJhbFB1YmxpY0tleVwiOlwiQkVCL0xaM2Vqb3dvUDNSWDRWbm43bExQVHEyVXdHVCswVzlzeXhvU0VITkJra3d0ZmJJZ081L1N2c2NEU2YxZGxQRE1mNFRhZ2l1bmUzNHlSQVlFMlk4XFx1MDAzZFwiLFwidGFnXCI6XCJLVnBzS1hEb0w0VVBnU0pjUXlSSlNDK1B2ZUZ1d2NkWWdwa2JsNy9Lbm9NXFx1MDAzZFwifSJ9 Sum:4500}
+2021/12/16 12:34:00 map[error:Заказ с таким номером уже обработан ps_desc:Заказ с таким номером уже обработан ps_order:<nil> status:120]
+2021/12/16 12:34:00  [data]  SET "error"='Заказ с таким номером уже обработан',,"status"=120,"ps_desc"='Заказ с таким номером уже обработан'
+2021/12/16 12:34:00  [where]  WHERE "id"=0
+2021/12/16 12:34:00  [x] UPDATE main.transaction SET "error"='Заказ с таким номером уже обработан',,"status"=120,"ps_desc"='Заказ с таким номером уже обработан' WHERE "id"=0
+2021/12/16 12:34:00 110
+2021/12/16 12:34:00 %!s(int=110)
+2021/12/16 12:37:13 Load Config...
+2021/12/16 12:37:13 Start service
+2021/12/16 12:37:13 Start Logger
+2021/12/16 12:37:13 Start Bank..
+2021/12/16 12:37:13 127.0.0.1:8030
+2021/12/16 12:37:20 {Config:{BankType:1 PayType:1 CurrensyCode:643 Language:RU Description:Точка} IdTransaction:0 MerchantId:T6949109620 GateWay:sberbank PaymentToken:eyJzaWduYXR1cmUiOiJNRVlDSVFDZnVJcy9pZXJBN0VudHF2WmJ6dTFRdWtTOEVET29yc3o4ZFVxMUF6ek9YQUloQU5zUlVqaTBHSDJ3QU44dlMxdkxnYWxqcUlVRGgybFZEako5OEF4Yk15Sk0iLCJwcm90b2NvbFZlcnNpb24iOiJFQ3YxIiwic2lnbmVkTWVzc2FnZSI6IntcImVuY3J5cHRlZE1lc3NhZ2VcIjpcIlFmVGs0ckxKWThjRzN0SWc0K1hkSy9pM05OMm1ScE9ZR0U4Zm5STGp0ME1VR2toc1h1Q1VYa0JZQzJvMktyOWExQU1FcXdvKzlHY1dldVhZdGtsQ3B0SzhQVlVMQmR6WUdKWkhnREhLeFFQRlQ2aXEwSytkdDNNVUZ2NzZGWFYwaXlBN0xETXJSS0gxWlJGV2hockkvSlFyeXdqZ0ErYUtPazVTbU5HRng1OGRXUGJHbGhHSUpoOWVlaE0rRE44T1Uzb0sxZ0NwbFJsdXhiR09RUURYTVgxOGpLUmYwMDJTNHk1Sm5zbytRWXpTYVpmWEZRMldsVUYrQWNsNmhsYVV4TTdJdWRncWZ6WWw1YlRjd1hhaFBwSHNnaVVjMU9oZHpzWExvTDB2ekxQRklRZUlxeTl5OFAya2luWG1tQzdnV3paaTMwVnZwMytuQ1p0QnRET1ZsQk1tSHcrOEJybW9yZzV3VmlKdmI3RHlJT1lLdXNTQkZlOWprbm53cFFyK3A4N2QyVytuZkdjd2wzL1pwaGpIYXRXNSs4VUh6M0E4Q2lHS0ZnRTIwcGIwamFvcDF2SWVUcXYwcjVQV3BsekJORENPN3ovMU1WM0luZjRQZmw0WnNDQ3BSWnJlOFdqMlMyZlcvdVFBNGNyRUhnTkNLTHJsclp2MkNudk5UZGRNWlpZV1FaRkxzbFZyZ2orZjRxRkl5b3hTdUlVWmVnbjRLSDN5SkQ0YzZJT3owbEZORnYzd1VLRkRZSGZrYkVjL1EwWldkbWFqWGFWNnl3XFx1MDAzZFxcdTAwM2RcIixcImVwaGVtZXJhbFB1YmxpY0tleVwiOlwiQkVCL0xaM2Vqb3dvUDNSWDRWbm43bExQVHEyVXdHVCswVzlzeXhvU0VITkJra3d0ZmJJZ081L1N2c2NEU2YxZGxQRE1mNFRhZ2l1bmUzNHlSQVlFMlk4XFx1MDAzZFwiLFwidGFnXCI6XCJLVnBzS1hEb0w0VVBnU0pjUXlSSlNDK1B2ZUZ1d2NkWWdwa2JsNy9Lbm9NXFx1MDAzZFwifSJ9 Sum:4500}
+2021/12/16 12:37:20 map[error:Заказ с таким номером уже обработан ps_desc:Заказ с таким номером уже обработан ps_order:no order_id status:120]
+2021/12/16 12:37:20  [data]  SET "ps_desc"='Заказ с таким номером уже обработан',"error"='Заказ с таким номером уже обработан',"ps_order"='no order_id',"status"=120
+2021/12/16 12:37:20  [where]  WHERE "id"=0
+2021/12/16 12:37:20  [x] UPDATE main.transaction SET "ps_desc"='Заказ с таким номером уже обработан',"error"='Заказ с таким номером уже обработан',"ps_order"='no order_id',"status"=120 WHERE "id"=0
+2021/12/16 12:37:20 Data processed
+2021/12/16 12:39:45 Load Config...
+2021/12/16 12:39:45 Start service
+2021/12/16 12:39:45 Start Logger
+2021/12/16 12:39:45 Start Bank..
+2021/12/16 12:39:45 127.0.0.1:8030
+2021/12/16 12:39:51 {Config:{BankType:1 PayType:1 CurrensyCode:643 Language:RU Description:Точка} IdTransaction:75 MerchantId:T6949109620 GateWay:sberbank PaymentToken:eyJzaWduYXR1cmUiOiJNRVlDSVFDZnVJcy9pZXJBN0VudHF2WmJ6dTFRdWtTOEVET29yc3o4ZFVxMUF6ek9YQUloQU5zUlVqaTBHSDJ3QU44dlMxdkxnYWxqcUlVRGgybFZEako5OEF4Yk15Sk0iLCJwcm90b2NvbFZlcnNpb24iOiJFQ3YxIiwic2lnbmVkTWVzc2FnZSI6IntcImVuY3J5cHRlZE1lc3NhZ2VcIjpcIlFmVGs0ckxKWThjRzN0SWc0K1hkSy9pM05OMm1ScE9ZR0U4Zm5STGp0ME1VR2toc1h1Q1VYa0JZQzJvMktyOWExQU1FcXdvKzlHY1dldVhZdGtsQ3B0SzhQVlVMQmR6WUdKWkhnREhLeFFQRlQ2aXEwSytkdDNNVUZ2NzZGWFYwaXlBN0xETXJSS0gxWlJGV2hockkvSlFyeXdqZ0ErYUtPazVTbU5HRng1OGRXUGJHbGhHSUpoOWVlaE0rRE44T1Uzb0sxZ0NwbFJsdXhiR09RUURYTVgxOGpLUmYwMDJTNHk1Sm5zbytRWXpTYVpmWEZRMldsVUYrQWNsNmhsYVV4TTdJdWRncWZ6WWw1YlRjd1hhaFBwSHNnaVVjMU9oZHpzWExvTDB2ekxQRklRZUlxeTl5OFAya2luWG1tQzdnV3paaTMwVnZwMytuQ1p0QnRET1ZsQk1tSHcrOEJybW9yZzV3VmlKdmI3RHlJT1lLdXNTQkZlOWprbm53cFFyK3A4N2QyVytuZkdjd2wzL1pwaGpIYXRXNSs4VUh6M0E4Q2lHS0ZnRTIwcGIwamFvcDF2SWVUcXYwcjVQV3BsekJORENPN3ovMU1WM0luZjRQZmw0WnNDQ3BSWnJlOFdqMlMyZlcvdVFBNGNyRUhnTkNLTHJsclp2MkNudk5UZGRNWlpZV1FaRkxzbFZyZ2orZjRxRkl5b3hTdUlVWmVnbjRLSDN5SkQ0YzZJT3owbEZORnYzd1VLRkRZSGZrYkVjL1EwWldkbWFqWGFWNnl3XFx1MDAzZFxcdTAwM2RcIixcImVwaGVtZXJhbFB1YmxpY0tleVwiOlwiQkVCL0xaM2Vqb3dvUDNSWDRWbm43bExQVHEyVXdHVCswVzlzeXhvU0VITkJra3d0ZmJJZ081L1N2c2NEU2YxZGxQRE1mNFRhZ2l1bmUzNHlSQVlFMlk4XFx1MDAzZFwiLFwidGFnXCI6XCJLVnBzS1hEb0w0VVBnU0pjUXlSSlNDK1B2ZUZ1d2NkWWdwa2JsNy9Lbm9NXFx1MDAzZFwifSJ9 Sum:4500}
+2021/12/16 12:39:52 map[error:Заказ с таким номером уже обработан ps_desc:Заказ с таким номером уже обработан ps_order:no order_id status:120]
+2021/12/16 12:39:52  [data]  SET "ps_desc"='Заказ с таким номером уже обработан',"error"='Заказ с таким номером уже обработан',"ps_order"='no order_id',"status"=120
+2021/12/16 12:39:52  [where]  WHERE "id"=75
+2021/12/16 12:39:52  [x] UPDATE main.transaction SET "ps_desc"='Заказ с таким номером уже обработан',"error"='Заказ с таким номером уже обработан',"ps_order"='no order_id',"status"=120 WHERE "id"=75
+2021/12/16 12:39:52 Data processed
+2021/12/17 10:07:49 Load Config...
+2021/12/17 10:07:49 Start service
+2021/12/17 10:07:49 Start Logger
+2021/12/17 10:07:49 Start Bank..
+2021/12/17 10:07:49 127.0.0.1:8030
+2021/12/17 10:08:04 map[error:Заказ с таким номером уже обработан ps_desc:Заказ с таким номером уже обработан ps_order:no order_id status:120]
+2021/12/17 10:08:04  [data]  SET "ps_order"='no order_id',"status"=120,"ps_desc"='Заказ с таким номером уже обработан',"error"='Заказ с таким номером уже обработан'
+2021/12/17 10:08:04  [where]  WHERE "id"=76
+2021/12/17 10:08:04  [x] UPDATE main.transaction SET "ps_order"='no order_id',"status"=120,"ps_desc"='Заказ с таким номером уже обработан',"error"='Заказ с таким номером уже обработан' WHERE "id"=76
+2021/12/17 10:08:04 Data processed

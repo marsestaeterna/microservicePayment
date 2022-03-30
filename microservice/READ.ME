@@ -1,0 +1,13 @@
+microservice  directory is  root directory 
+microservices that support the work with the modem are divided into directories:
+1) ephorpay is dirictory where locate business logic for payment from devices (modems and applications)
+2) ephorfiscal is directory where locate business logic for  fiscalisation payment events  
+3) ephorstatedevice is directory where locate business logic for  update state devices automat and update state modem and so on.
+
+-- You can run the project through the main.go file in /microservice
+ -- Commands that can control project:
+     a)  --start - is command that run microservice
+     b)  --stop - is command that stops the work of the microservice softly, that is, the reception of new messages ends and old processes are terminated
+     с)  --status - is command that show status microservices. Available options (all parameters are indicated with space): 1) ephorfiscal 2) ephorpay 3) ephorstatusdevice
+
+Microservices architecture consists of RabbitMq, Postgresql 9.5, php, golang 
